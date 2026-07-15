@@ -87,6 +87,15 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.card {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.08); 
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
